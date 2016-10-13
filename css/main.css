@@ -5,31 +5,37 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+/* body */
 
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0.3em;
+  background-color: #595652;
+}
 /* header */
+
 header {
   background-color: #79756f;
 }
-
 /* Planets title */
+
 h1 {
-  font-family: 'Bevan', cursive;
+  font-family: "Bevan", cursive;
   line-height: 1.5;
   text-align: center;
   color: #fff;
 }
-
 /* Navigation general class starts */
+
 .navigation {
   margin: 0.3em;
   padding: 0.6em;
   list-style-type: none;
   text-align: center;
   color: #fff;
-  font-style: helvetica; sans-serif;
 }
-
 /* Navigation inside of boxes */
+
 .navigation li {
   display: inline-block;
   margin: 0.3em;
@@ -41,5 +47,5 @@ h1 {
 }
 
 .navigation a:hover {
-  background-color: #f33
+  background-color: #f33;
 }
