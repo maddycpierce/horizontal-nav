@@ -5,3 +5,28 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+/* Planets title starts*/
+
+h1 {
+  font-family: 'Bevan', cursive;
+  background-color: #79756f;
+}
+
+/* Planets title ends*/
+/* Navigation class starts*/
+
+.navigation {
+  margin: 0.3em;
+  padding: 0.6em;
+  list-style-type: none;;
+}
+
+.navigation {
+  display: inline-block;
+  margin: 0.3em;
+  max-width: 20em
+  padding: 0.5em;
+  background-color:713837
+  border-radius: 10px
+}
