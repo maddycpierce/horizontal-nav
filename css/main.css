@@ -6,27 +6,40 @@ html {
   box-sizing: inherit;
 }
 
-/* Planets title starts*/
-
-h1 {
-  font-family: 'Bevan', cursive;
+/* header */
+header {
   background-color: #79756f;
 }
 
-/* Planets title ends*/
-/* Navigation class starts*/
+/* Planets title */
+h1 {
+  font-family: 'Bevan', cursive;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+}
 
+/* Navigation general class starts */
 .navigation {
   margin: 0.3em;
   padding: 0.6em;
-  list-style-type: none;;
+  list-style-type: none;
+  text-align: center;
+  color: #fff;
+  font-style: helvetica; sans-serif;
 }
 
+/* Navigation inside of boxes */
 .navigation li {
   display: inline-block;
   margin: 0.3em;
   max-width: 20em;
-  padding: 0.5em;
-  background-color:713837;
+  padding: 0.75em;
+  background-color: #713837;
   border-radius: 10px;
+  text-align: center;
+}
+
+.navigation a:hover {
+  background-color: #f33
 }
