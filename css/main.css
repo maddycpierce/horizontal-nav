@@ -9,7 +9,7 @@ html {
 
 body {
   font-family: sans-serif;
-  margin: 0.3em;
+  margin: 0;
   margin-top: auto;
   margin-bottom: 0.3em;
   margin-left: auto;
@@ -27,11 +27,11 @@ header {
 /* Planets title */
 
 h1 {
-  font-family: "Bevan", cursive;
+font-family: "Bevan", cursive;
   line-height: 1.5;
   text-align: center;
   color: #fff;
-  margin: 0.1em;
+  margin: 0;
 }
 /* Navigation general class starts */
 
@@ -59,6 +59,7 @@ h1 {
   background-color: #f33;
   text-decoration: none;
   color: #fff;
+  max-width: 20em;
 }
 
 a {
@@ -69,4 +70,5 @@ a {
 
 a hover {
   background-color: #f33;
+  padding: 0.75em;
 }
