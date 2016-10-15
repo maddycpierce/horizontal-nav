@@ -27,7 +27,7 @@ header {
 /* Planets title */
 
 h1 {
-font-family: "Bevan", cursive;
+  font-family: "Bevan", serif;
   line-height: 1.5;
   text-align: center;
   color: #fff;
@@ -60,6 +60,7 @@ font-family: "Bevan", cursive;
   text-decoration: none;
   color: #fff;
   max-width: 20em;
+  padding: 0.75em;
 }
 
 a {
@@ -70,5 +71,4 @@ a {
 
 a hover {
   background-color: #f33;
-  padding: 0.75em;
 }
